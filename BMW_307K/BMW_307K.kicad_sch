@@ -1,0 +1,54 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a5d5aafa-ab7e-4320-9b2d-9a5961043d04)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "BMW 07K Wiring")
+    (date "2023-03-28")
+    (rev "v1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 52.705 15.875) (size 33.655 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 194 194 194 1.0000))
+    (uuid abcb4cb4-2d99-4380-aa39-0c5fb0a308c3)
+    (property "Sheetname" "DashHarness" (at 52.705 15.1634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "DashHarness.kicad_sch" (at 52.705 50.7496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BMW_307K"
+        (path "/a5d5aafa-ab7e-4320-9b2d-9a5961043d04" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 15.24 15.875) (size 33.655 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 194 194 194 1.0000))
+    (uuid f6cc5cbe-f911-418e-ab26-fb2c9fa0ef6c)
+    (property "Sheetname" "EngineHarness" (at 15.24 15.1634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "EngineHarness.kicad_sch" (at 15.24 50.7496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BMW_307K"
+        (path "/a5d5aafa-ab7e-4320-9b2d-9a5961043d04" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
